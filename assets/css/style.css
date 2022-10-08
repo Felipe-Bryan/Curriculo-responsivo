@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'farewell angelina';
+  src: url(/assets/fonts/farewell_angelina_display_sample.ttf);
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: farewell angelina;
+}
+
+.bg-gray {
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+div {
+  margin: 0px;
+}
+
+.avatar {
+  height: 130px;
+  border-radius: 200px;
+}
+
+.navbar {
+  font-variant: small-caps;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.nav-menu {
+  margin-left: 2px;
+}
+
+.active {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 1px;
+  margin-left: 2px;
+}
+
+.social-icon:hover {
+  width: 55px;
+  height: 55px;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.emphasis {
+  color: #777474;
+}
+
+#about {
+  opacity: 1;
+}
+
+#knowledge {
+  opacity: 0;
+}
+
+#objectives {
+  opacity: 0;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: 0.3s;
+}

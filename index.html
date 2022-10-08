@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/images/curriculum-vitae-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Felipe Bryan</title>
+  </head>
+  <body class="p-0 m-0">
+    <div class="container-fluid vh-100 p-0 m-0">
+      <div class="photo row bg-gray h-auto m-0 p-2">
+        <div class="d-flex justify-content-center align-items-center p-0">
+          <img class="avatar" src="/assets/images/avatar.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="navbar row bg-gray h-auto m-0 p-1 d-flex justify-content-center align-items-center position-sticky">
+        <div class="d-flex justify-content-center align-items-center m-0 p-0">
+          <div class="button active m-0 p-0" id="btn-about">
+            <p class="m-0 ms-2 me-2 p-0" onclick="showAbout()">Sobre</p>
+          </div>
+          <div class="button m-0 p-0" id="btn-knowledge">
+            <p class="m-0 ms-2 me-2 p-0" onclick="showKnowledge()">Conhecimentos</p>
+          </div>
+          <div class="button m-0 p-0" id="btn-objectives">
+            <p class="m-0 ms-2 me-2 p-0" onclick="showObjectives()">Objetivos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content row m-0 h-auto" id="content">
+        <div id="about" class="">
+          <div class="col-12 m-0 p-1 h-auto">
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="mailto:felipe.bryan@live.com" target="_blank" title="Enviar email para: felipe.bryan@live.com">
+                <img src="/assets/images/outlook-icon.png" alt="outlook-icon" class="social-icon" />
+              </a>
+              <a href="mailto:fbryancm@gmail.com" target="_blank" title="Enviar email para: fbryancm@gmail.com">
+                <img src="/assets/images/gmail-icon.png" alt="gmail-icon" class="social-icon" />
+              </a>
+              <a href="https://www.linkedin.com/in/felipe-bryan-55b2a6139/" target="_blank" title="Perfil de Felipe Bryan no LinkedIn">
+                <img src="/assets/images/linkedin-icon.png" alt="linkedin-icon" class="social-icon" />
+              </a>
+              <a href="https://github.com/Felipe-Bryan" target="_blank">
+                <img src="/assets/images/github-icon.png" alt="github-icon" class="social-icon" title="Perfil de Felipe Bryan no GitHub" />
+              </a>
+              <a href="https://www.facebook.com/felipe.bryan" target="_blank">
+                <img src="/assets/images/facebook-icon.png" alt="facebook-icon" class="social-icon" title="Perfil de Felipe Bryan no Facebook" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 m-0 p-2 h-auto">
+            <div class="d-flex justify-content-center align-items-center">
+              <h2 class="profile-name m-0">Felipe <span class="emphasis">Bryan Campos de Moraes</span></h2>
+            </div>
+          </div>
+
+          <div class="col-12 m-0 ps-1 h-auto"><b>Endereço:</b> Rua Anna Ortega Traballi, 430 casa 37</div>
+
+          <div class="city col-12 m-0 ps-1 h-auto">
+            <b>São José dos Campos-SP</b>
+          </div>
+
+          <div class="col-12 m-0 ps-1 h-auto">
+            <b>Telefone:</b> (12) 99737-9355
+            <a href="https://api.whatsapp.com/send/?phone=%2B5512997379355&text&type=phone_number&app_absent=0" target="_blank">
+              <img src="/assets/images/whatsapp-icon.png" alt="whatsapp" style="width: 16px; height: 16px" title="Enviar whatsapp para Felipe" />
+            </a>
+          </div>
+          <hr />
+          <p>
+            Profissional em processo de migração de carreira, grande experiência anterior na área de vendas e atendimento à clientes, de fácil
+            aprendizagem habilidade no trabalho em equipe, buscando sempre o melhor resultado.
+          </p>
+          <p class="mb-1 me-1">
+            • Recentemente ingressei em um programa de formação profissional voltado à área de desenvolvimento WEB, ministrado pela GrowDev. Nesse
+            programa serão aprendidas as principais tecnologias para Front-End, Back-End bem como as principais ferramentas utilizadas no cotidiano do
+            profissional de desenvolvimento.
+          </p>
+          <p class="m-0">- A duração do programa será de 1 ano, com previsão de conclusão em junho/2023.</p>
+          <p class="m-0">- A carga horária total é de 1.000 horas.</p>
+        </div>
+
+        <div id="knowledge" class="d-none">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="d-flex justify-content-center align-items-center mt-2">Conhecimentos</h3>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <h4 class="d-flex justify-content-center align-items-center p-0 m-0">Idiomas</h4>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <p class="d-flex justify-content-center align-items-center p-0 mb-3">
+                Inglês intermediário - Nível B2 (
+                <a
+                  href="https://www.britishcouncil.org.br/quadro-comum-europeu-de-referencia-para-linguas-cefr"
+                  style="color: rgb(0, 0, 255)"
+                  target="_blank"
+                >
+                  CEFR </a
+                >)
+              </p>
+            </div>
+
+            <div class="col-12 ms-2 p-0">
+              <p class="mb-2">• Abaixo uma lista do que já foi aprendido no programa:</p>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <h4 class="d-flex justify-content-center align-items-center m-0 p-0">Tools</h4>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <p class="d-flex justify-content-center p-0 mb-2">Git | Github | VSCode</p>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <h4 class="d-flex justify-content-center align-items-center m-0 p-0">Front-End</h4>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <p class="d-flex justify-content-center p-0 m-0">HTML | CSS | JavaScript | TypeScript | Bootstrap</p>
+            </div>
+
+            <div class="col-12 m-0 p-0">
+              <p class="d-flex justify-content-center align-items-center p-0 mb-2">Design Responsivo</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="objectives" class="d-none">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="d-flex justify-content-center align-items-center mt-2">Objetivos</h3>
+            </div>
+
+            <div class="col-12 ms-2 mb-1 p-0">
+              <p class="d-flex justify-content-center p-0 m-0">
+                • Me desenvolver profissionalmente buscando sempre o aprimoramento das minhas habilidades, contribuindo assim com a qualidade do meu
+                trabalho.
+              </p>
+            </div>
+
+            <div class="col-12 ms-2 mb-1 p-0">
+              <p class="d-flex justify-content-center p-0 m-0">
+                • Poder proporcionar conforto e bons momentos à minha família por meio de trabalho honesto e digno.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/index.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
