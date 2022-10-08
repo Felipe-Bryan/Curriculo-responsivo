@@ -63,25 +63,3 @@ a {
 .emphasis {
   color: #777474;
 }
-
-#about {
-  opacity: 1;
-}
-
-#knowledge {
-  opacity: 0;
-}
-
-#objectives {
-  opacity: 0;
-}
-
-.fade-out {
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.fade-in {
-  opacity: 1;
-  transition: 0.3s;
-}
