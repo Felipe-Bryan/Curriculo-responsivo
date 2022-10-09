@@ -6,6 +6,10 @@ const buttonAbout = document.getElementById('btn-about');
 const buttonKnowledge = document.getElementById('btn-knowledge');
 const buttonObjectives = document.getElementById('btn-objectives');
 
+let flagAbout = true;
+let flagKnowledge = false;
+let flagObjectives = false;
+
 function showAbout() {
   about.classList.remove('d-none');
   knowledge.classList.add('d-none');
@@ -34,4 +38,8 @@ function showObjectives() {
   buttonAbout.classList.remove('active');
   buttonKnowledge.classList.remove('active');
   buttonObjectives.classList.add('active');
+}
+
+function showK() {
+  knowledge.classList.remove('d-none');
 }
